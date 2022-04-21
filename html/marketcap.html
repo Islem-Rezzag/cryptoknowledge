@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>marketcap</title>
+ <!--font awesome cdn link-->
+ <link rel="stylesheet" href="../css/style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Oswald:wght@200;600;700&family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ </head>
+ <body>
+  <section class="header">
+  <nav>
+    <a href="home.html"><img class="logo"  src="../images/logogif.gif" /></a>
+    
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="Learn.html">Learn</a></li>
+        <li><a href="Invest.html">Invest</a></li>
+        <li><a href="NFTs.html">NFTs</a></li>
+        <li><a href="marketcap.html">marketcap</a></li>
+        <li><a href="About us.html">About us</a></li>
+    
+      </ul>
+    </div>
+    
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+ </nav>
+ <div class="market">
+  <h2>What is market cap:</h2><br>
+ <p> The market capitalization (or market cap)  is term that is used in companies which refers to the total value of all a company's shares of stock. The marketcap of a cryptocurrency such as Bitcoin is the total worth of all the coins that have been produced. It is computed by multiplying the total number of coins in circulation by the coin's current market value.<br></br>
+  Market capitalization enables you to compare the overall value of one cryptocurrency to the total value of another, allowing for better educated investing choices. Cryptocurrencies are grouped into three groups based on their market capitalization:<br></br>
+  Bitcoin and Ethereum, for example, have a market worth of over $10 billion. They are considered less risky investments since they have a proven track record of growth and are frequently more liquid, allowing a bigger number of cash outs without a major price effect.<br></br>
+  Between $1 billion and $10 billion, mid-cap cryptocurrencies are believed to have greater untapped upside potential but also more risk.<br></br>
+  Small-cap cryptocurrencies have a market valuation under $1 billion and are most subject to market mood changes.<br>
+</p>
+<h2>Why market cap is important:</h2><br>
+ <p> Price is just one metric for determining a cryptocurrency's worth. Market cap is used by investors to present a more comprehensive narrative and to compare the worth of various cryptocurrencies. As a critical metric, it may show a cryptocurrency's development potential and if it is a safe investment when compared to others.</p><br></br>
+  <!-- <h1>Marketcap</h1> -->
+
+ </div>
+
+ <div class="cap">
+   <h1>Marketcap</h1>
+ <div style="height:5979px; background-color: #000000; overflow:hidden; box-sizing: border-box; border: 1px solid #000000; border-radius: 4px; text-align: right; line-height:14px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #01050f; padding: 50px; margin: 0px; width: 100%;"><div style="height:5959px; padding:0px; margin:0px; width: 100%;"><iframe src="https://widget.coinlib.io/widget?type=full_v2&theme=dark&cnt=100&pref_coin_id=1505&graph=yes" width="100%" height="5955px" scrolling="auto" marginwidth="0" marginheight="0" frameborder="0" border="0" style="border:0;margin:0;padding:0;"></iframe></div><div style="color: #626B7F; line-height: 14px; font-weight: 400; font-size: 11px; box-sizing: border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;"><a href="https://coinlib.io" target="_blank" style="font-weight: 500; color: #010611; text-decoration:none; font-size:11px">Cryptocurrency Prices</a>&nbsp;by Coinlib</div>
+</div>
+</div>
+
+  
+    <!----------javascript toggle menu-->
+    <script>
+      var navLinks= document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right="0";
+      }
+      function hideMenu(){
+        navLinks.style.right="-200px"
+      }
+    </script>
+    <!-- end of toggle menu -->
+</body>
+  </html>

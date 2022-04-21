@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Invest</title>
+ <!--font awesome cdn link-->
+ <link rel="stylesheet" href="../css/style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Oswald:wght@200;600;700&family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!------trial-->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="header">
+  <nav>
+    <a href="home.html"><img class="logo"  src="../images/logogif.gif" /></a>
+    
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="Learn.html">Learn</a></li>
+        <li><a href="Invest.html">Invest</a></li>
+        <li><a href="NFTs.html">NFTs</a></li>
+        <li><a href="marketcap.html">marketcap</a></li>
+        <li><a href="About us.html">About us</a></li>
+    
+      </ul>
+    </div>
+    
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+   </nav>
+   <section class="about">
+     <div class="container">
+     <div class="about-text">
+     <h3>This is Mohamed Islem Rezzag Baara <span>Undergraduate student</span> </h3><br>
+     <p>i am  computer science student which includes coding with different computer languages. well This year i have been introduced to web development which i always wanted to have a go with.The term "cryptocurrency" used to make me think of an underground banking system with hooded traders and shady computers. But now, it is no longer the caseas i really got into it, learning cryptocurrencies is something that i will never regret as it developing every year and it is the new world digital currency and will take place in the near future. personally i am investign in few cryptocurrencies and NFTs project after doing my research and being up to date with the latest news</p><br></br>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6nbhxMaGgbPq9rcqRn_fnOm7tpVP0uPk93Rrs23JFOMSdcg/viewform?vc=0&c=0&w=1&flr=0">survey</a><br>
+      <a href="../pdf/CV (1).pdf">CV</a>
+      <a href="https://twitter.com/Islem667"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/mohamed-islem-rezzag-baara-2326a0237/"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <div class="photos">
+      <h2>My NFTs collections</h2>
+      <img src="../images/cosmodinos1.png" width="180" height="180" alt="Image1">
+      <p><span>project name: </span>Cosmodinos omega</p>
+      <a href="https://opensea.io/collection/cosmodinos-omega">view collection</a>
+      <hr class="solid"><br></br>    
+      <img src="../images/cosmodinos2.png" width="180" height="180" alt="Image2">
+      <p><span>project name: </span>Cosmodinos omega</p>
+      <a href="https://opensea.io/collection/cosmodinos-omega">view collection</a>  
+
+    </div>
+    </div>
+   </section>
+</section>
+
+  
+     <!----------javascript toggle menu-->
+     <script>
+      var navLinks= document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right="0";
+      }
+      function hideMenu(){
+        navLinks.style.right="-200px"
+      }
+    </script>
+    <!-- end of toggle menu -->
+  
+</body>
+  </html>
