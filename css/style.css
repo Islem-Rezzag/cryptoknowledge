@@ -85,8 +85,8 @@
      font-weight:lighter;
      color: #fff;
 }
-.text-box button{
-    width: 180px;
+.text-box a{
+    width: 250px;
     padding: 15px 0;
     text-align: center;
     margin: 20px 10px;
@@ -96,10 +96,11 @@
     color: #fff;
     position: relative;
 }
-.text-box button:hover{
+.text-box a:hover{
     color: #000000;
     background-color: #ffa500;
     transition: all 0.2;
+    text-decoration: none;
 }
 
 nav .fa{
@@ -1712,6 +1713,3 @@ hr.solid {
 }
 
 
-.learn2{
-    background-color: #000;
-}
