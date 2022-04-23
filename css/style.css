@@ -89,12 +89,13 @@
     width: 250px;
     padding: 15px 0;
     text-align: center;
-    margin: 20px 10px;
+    margin: 50px 10px;
     font-weight: bold;
     border: 3px solid #ffa500;
     background: #000;
     color: #fff;
     position: relative;
+    text-decoration: none;
 }
 .text-box a:hover{
     color: #000000;
